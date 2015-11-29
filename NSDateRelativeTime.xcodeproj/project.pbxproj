@@ -246,7 +246,7 @@
 				INFOPLIST_FILE = "NSDate-RelativeTime/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appstronomy.NSDate-RelativeTime";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appstronomy.NSDateRelativeTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -262,7 +262,7 @@
 				INFOPLIST_FILE = "NSDate-RelativeTime/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appstronomy.NSDate-RelativeTime";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appstronomy.NSDateRelativeTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

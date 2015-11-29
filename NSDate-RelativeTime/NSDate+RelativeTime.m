@@ -72,7 +72,7 @@ const int YEAR = DAY*365;
 
 -(NSString *)NSDateRelativeTimeLocalizedStrings:(NSString *)key
 {
-    return NSLocalizedStringFromTableInBundle(key, @"NSDate+RelativeTime", [NSBundle bundleWithPath:[[[NSBundle bundleForClass:self.class] resourcePath] stringByAppendingPathComponent:@"NSDate+RelativeTime.bundle"]], nil);
+    return NSLocalizedStringFromTableInBundle(key, @"NSDate+RelativeTime", [NSBundle bundleWithPath:[[[NSBundle bundleWithIdentifier:@"com.appstronomy.NSDateRelativeTime"] resourcePath] stringByAppendingPathComponent:@"NSDate+RelativeTime.bundle"]], nil);
 }
 
 @end
