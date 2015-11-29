@@ -21,7 +21,7 @@ const int YEAR = DAY*365;
 -(NSString *)relativeTime
 {
     NSDate *currentDate = [NSDate date];
-    int deltaSeconds = fabs(lroundf([self timeIntervalSinceDate:currentDate]));
+    int deltaSeconds = (int)labs(lroundf([self timeIntervalSinceDate:currentDate]));
     BOOL dateInFuture = ([self timeIntervalSinceDate:currentDate] > 0);
     
     if(deltaSeconds < 2*SECOND) {
@@ -72,7 +72,7 @@ const int YEAR = DAY*365;
 
 -(NSString *)NSDateRelativeTimeLocalizedStrings:(NSString *)key
 {
-    return NSLocalizedStringFromTableInBundle(key, @"NSDate+RelativeTime", [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"NSDate+RelativeTime.bundle"]], nil);
+    return NSLocalizedStringFromTableInBundle(key, @"NSDate+RelativeTime", [NSBundle bundleWithPath:[[[NSBundle bundleForClass:self.class] resourcePath] stringByAppendingPathComponent:@"NSDate+RelativeTime.bundle"]], nil);
 }
 
 @end
