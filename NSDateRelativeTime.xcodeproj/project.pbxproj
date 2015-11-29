@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E5DC0111C0AACB200DE042C /* NSDateRelativeTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5DC0101C0AACB200DE042C /* NSDateRelativeTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E5DC01A1C0AAD5D00DE042C /* NSDate+RelativeTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5DC0181C0AAD5D00DE042C /* NSDate+RelativeTime.h */; };
+		4E5DC01A1C0AAD5D00DE042C /* NSDate+RelativeTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5DC0181C0AAD5D00DE042C /* NSDate+RelativeTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E5DC01B1C0AAD5D00DE042C /* NSDate+RelativeTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DC0191C0AAD5D00DE042C /* NSDate+RelativeTime.m */; };
 		4E8B01AA1C0AAED60061571D /* NSDate+RelativeTime.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E8B01A91C0AAED60061571D /* NSDate+RelativeTime.bundle */; };
 /* End PBXBuildFile section */
